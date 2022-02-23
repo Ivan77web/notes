@@ -1,0 +1,285 @@
+*{
+  font-family: 'Comfortaa', cursive;
+}
+
+.App {
+  text-align: center;
+}
+
+.App .mainPlace{
+  margin: 0 auto;
+  margin-top: 50px;
+  border: 4px solid rgb(150, 180, 194);
+  border-radius: 15px;
+  width: 800px;
+  height: 600px;
+  /* background: rgb(228, 233, 248); */
+  background: rgb(255, 255, 255);
+}
+
+.App .header{
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 60px;
+  border-bottom: 4px solid rgb(150, 180, 194);
+}
+
+.App .header .logo{
+  height: 60px;
+}
+
+.App .header .logo p{
+  margin: 0;
+  margin-left: 30px;
+  font-size: 30px;
+  height: 60px;
+  color: blueviolet;
+  line-height: 60px;
+}
+
+.App .header .headerButtons{
+  position: absolute;
+  right: 40px;
+  height: 60px;
+  display: flex;
+}
+
+.App .header .headerButtons p{
+  margin: 0;
+  margin-left: 30px;
+  font-size: 18px;
+  height: 60px;
+  color: blueviolet;
+  line-height: 60px;
+}
+
+
+
+
+
+/* .App .mainBlock{
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 600px;
+  height: 500px;
+}
+
+.App  .mainBlock .myNotes{
+  position:relative;
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 600px;
+  height: 500px;
+  background: rgb(255, 255, 255);
+}
+
+.App  .mainBlock .myNotes .allNotes{
+  
+
+}
+
+.App  .mainBlock .myNotes .userInput{
+  position: absolute;
+  bottom: 0;
+}
+
+.App  .mainBlock .myNotes .userInput input{
+  width: 534px;
+  height: 30px;
+  border: 2px solid rgb(179, 179, 179);
+  border-radius: 20px;
+  font-size: 18px;
+  box-sizing: border-box;
+  padding-left: 10px;
+}
+
+.App  .mainBlock .myNotes .userInput button{
+  width: 36px;
+  height: 36px;
+  background: white;
+  border: 2px solid rgb(179, 179, 179);
+  border-radius: 100%;
+  margin-left: 30px;
+} */
+
+
+
+.App .mainPlace .mainBlock .add{
+  /* display: none; */
+}
+
+.active{
+  display: none;
+}
+
+
+.App .mainPlace .mainBlock .add .note{
+  position: relative;
+  margin: 0 auto;
+  width: 600px;
+  height: 500px;
+  background: rgb(255, 255, 255);
+  text-align: left;
+  font-size: 25px;
+}
+
+.App .mainPlace .mainBlock .add .note .noteTittle{
+  height: 70px;
+  display: flex;
+  border-bottom: 2px dashed rgb(109, 109, 109);
+}
+
+.App .mainPlace .mainBlock .add .note .inputTittle{
+  border: none;
+  margin-top: 23px;
+  padding-left: 20px;
+  width: 538px;
+  height: 30px;
+  font-size: 25px;
+}
+
+
+
+
+
+
+
+.App .mainPlace .mainBlock .add .note .noteDesc{
+  height: 70px;
+  height: 370px;
+  width: 600px;
+  /* display: flex; */
+  
+}
+
+.App .mainPlace .mainBlock .add .note .inputDesc{
+  border: none;
+  width: 600px;
+  height: 300px;
+  font-size: 18px;
+}
+
+
+
+
+.App .mainPlace .mainBlock .add .note button{
+  position: absolute;
+  right: 0;
+  width: 110px;
+  height: 40px;
+  background: white;
+  border: 2px solid rgb(150, 180, 194);
+  border-radius: 50px;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+
+
+
+
+.App .mainPlace .mainBlock .myNotes .overflow{
+  margin: 0 auto;
+  width: 556px;
+  height: 400px;
+  /* background: rgb(121, 102, 102); */
+  /* border-radius: 30px; */
+  overflow-y: auto; 
+
+}
+
+.App .mainPlace .mainBlock .myNotes .overflow::-webkit-scrollbar { 
+  width: 0;
+}
+
+.App .mainPlace .mainBlock .myNotes .allNotes{
+  margin: 0 auto;
+  margin-bottom: 15px;
+  display: flex;
+  width: 550px;
+  height: 80px;
+  border: 3px solid rgb(150, 180, 194);
+  border-radius: 30px;
+
+
+  overflow-y: hidden;
+  overflow-x: auto; 
+}
+
+.iconPlus{
+  line-height: 60px;
+  font-size: 50px;
+  color: rgb(150, 180, 194);
+  margin: 0 auto;
+  margin-top: 6px;
+  width: 60px;
+  height: 60px;
+  border: 3px solid rgb(150, 180, 194);
+  border-radius: 100%;
+}
+
+.App .mainPlace .mainBlock .myNotes .allNotes::-webkit-scrollbar { 
+  width: 0;
+}
+
+.App .mainPlace .mainBlock .myNotes .allNotes .OneNoteTittle{
+  height: 80px;
+  line-height: 80px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.App .mainPlace .mainBlock .myNotes .allNotes .OneNoteTask{
+  height: 80px;
+  line-height: 80px;
+  padding-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.App .mainPlace .mainBlock .settings{
+  width: 300px;
+  height: 300px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 
+---------------------------------------------------------------------------- 
+*/
+
+textarea:focus, input:focus{
+  outline: none;
+}
+
+/* 
+---------------------------------------------------------------------------- 
+*/
+
+.nightTheme{
+
+}
+
